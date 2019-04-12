@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Logged In</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="admin.js"></script>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div>
+    <input type="text" id="isbn" placeholder=" Book ISBN">
+    <input type="text" id="name" placeholder="Book Name">
+    <input type="text" id="author" placeholder="Book Author">
+    <input type="text" id="category" placeholder="Book Category">
+    <button id="btn">Add Book</button>
+</div>
+<div>Fetch By:</div>
+
+Availability<input id="rad1" name="Authenticate" type="radio" value="Availability">
+Category<input id="rad2" name="Authenticate" type="radio" value="Category">
+Name<input id="rad3" name="Authenticate" type="radio" value="Name">
+All<input id="rad4" name="Authenticate" type="radio" value="All" checked>
+<div>
+ Your Choice: <input id="inp" type="text" class="style">
+</div>
+<div>
+    <button id="btn1">fetch Books</button>
+</div>
+<div>
+    <button id="btn2">fetch Users</button>
+</div>
+<div><output id="result" class="style"></output></div>
+</body>
+</html>
