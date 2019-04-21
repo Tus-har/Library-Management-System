@@ -1,5 +1,5 @@
 # Library-Management-System
 Web Application for Library management 
-Database: SQL; \n
-Framework: NodeJs-Express; \n
+Database: SQL; ¶
+Framework: NodeJs-Express;
 Communication: JQuery AJAX;
