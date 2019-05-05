@@ -1,9 +1,19 @@
 $(document).ready(function() {
+
     console.log('index file ready') ;
     let btn = $('#btn');
     let inp1 = $('#inp1');
     let inp2 = $('#inp2');
     let btn1 = $('#btn1');
+    let display=$("#div1") ;
+
+            setTimeout(function () {
+                display.fadeOut(2000);
+                setTimeout(function () {
+                    $('#div2').css({visibility: 'visible'})
+                }, 2000);
+            },500) ;
+
 
 
     btn.click(function () {

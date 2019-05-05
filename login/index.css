@@ -1,6 +1,50 @@
+#OuterBox{
+    margin: -8px;
+    position: absolute;
+    border: 2px solid Black;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow:hidden;
+}
+#img1{
+    width: 100%;
+    height: 100%;
+}
+
+#InnerBox{
+    position: relative;
+    top: -100vh;
+}
+#div1{
+    z-index: 5;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #06902f;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: small-caps;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+#div2{
+    position: absolute;
+    z-index: 0;
+    margin: 20% 30% 20% 30% ;
+    visibility: hidden;
+
+}
 .style1{
     visibility: hidden;
 }
 .style{
     visibility: visible;
 }
+
